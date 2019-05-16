@@ -23,7 +23,7 @@ You'll locate the config files in ".ebextensions\setup\config\nginx" folder.
 You can cross this path, but then in a few months when you want to use the contemporary model of Amazon Linux you'll need to absolutely recreate your custom AMI all over again.  That receives to be a pain over the path of time. So, why now not simply stay with the default AMI and deal with all of your setups via .ebextensions?
 
 _
-## Замена Apache на Nginx и PHP-FPM 7.2, включите gzip, expires headers на AWS Elastic Beanstalk:
+## Замена Apache на Nginx и PHP-FPM 7.2, включение gzip, expires headers на AWS Elastic Beanstalk:
 
 Если вы думаете, что вам нужно использовать Nginx + PHP-FPM, а не Apache + PHP для своего приложения AWS, то это то что вам нужно.
 Это пример развертывания со всеми .ebextensions, которые можно попробовать и сделать без необходимости создания пользовательского AMI.
