@@ -1,7 +1,7 @@
 ## Replace Apache with Nginx and PHP-FPM 7.2, turn on gzip, expires headers on AWS Beanstalk:
 
 If you discover yourself needing to use Nginx and PHP-FPM rather than apache for your AWS stem PHP App, well it's great!
-This is a sample deployment with all of the .ebextensions to try and do therefore without having to create a custom AMI.
+This is a sample deployment with all of the .ebextensions to try and do therefore without having to create a custom AMI. Works with PHP 7.2.
 
 ## What's performed here:
 
@@ -26,7 +26,7 @@ _
 ## Замена Apache на Nginx и PHP-FPM 7.2, включение gzip, expires headers на AWS Elastic Beanstalk:
 
 Если вы думаете, что вам нужно использовать Nginx + PHP-FPM, а не Apache + PHP для своего приложения AWS, то это то что вам нужно.
-Это пример развертывания со всеми .ebextensions, которые можно попробовать и сделать без необходимости создания пользовательского AMI.
+Это пример развертывания со всеми .ebextensions, которые можно попробовать и сделать без необходимости создания пользовательского AMI. Работает с PHP 7.2.
 
 ## Что здесь делает этот скрипт:
 
@@ -35,7 +35,7 @@ _
 3. Включите gzip, expires headers, ssl redirection.
 4. Включите логи CloudWatch.
 
-## Как эиспользовать:
+## Как использовать:
 
 Вы можете скачать этот репозиторий, разархивировать его содержимое, скопировать файлы с каталога .ebextensions в ваш и настроить конфигурации ngnix для своего приложения AWS Elastic Beanstalk.
 
